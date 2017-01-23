@@ -82,6 +82,10 @@ body {
   margin: auto;
 }
 
+.jumbotron .padding-bottom {
+  padding-bottom: 20px;
+}
+
 @media only screen and (max-width: 420px) {
   .jumbotron .mobile-heading {
     text-align: center;
