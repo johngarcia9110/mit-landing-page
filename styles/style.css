@@ -87,20 +87,29 @@ body {
 }
 
 @media only screen and (max-width: 420px) {
+  .jumbotron {
+    background-image: none;
+    padding-top: 63px;
+  }
   .jumbotron .mobile-heading {
     text-align: center;
   }
   .jumbotron .phone-image {
     max-width: 500px;
   }
+  .jumbotron .page-title {
+    font-size: 27px;
+    padding: 10px 0 40px 0;
+    font-weight: bold;
+  }
   .navbar-header {
-    background: rgba(0, 0, 0, 0.67);
+    background: #04174f;
   }
   .navbar-header .logo {
     max-width: 65px;
   }
   #navbar {
-    background: rgba(0, 0, 0, 0.67);
+    background: #04174f;
   }
   #navbar li a {
     color: white;
