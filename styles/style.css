@@ -6,6 +6,7 @@ body {
 
 .navbar-fixed-top {
   position: absolute;
+  display: none;
 }
 
 .navbar-brand {
@@ -54,7 +55,7 @@ body {
   position: relative;
   color: #fff;
   margin-bottom: 0px;
-  padding-top: 100px;
+  padding-top: 45px;
 }
 
 .jumbotron .container {
@@ -115,4 +116,9 @@ body {
     color: white;
     text-align: right;
   }
+}
+
+#alertMsg {
+  display: none;
+  color: red;
 }
